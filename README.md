@@ -31,7 +31,9 @@ Teste captures real browser evidence and generates actionable improvement prompt
 
 ## Download
 
-[Download Teste 1.0 — Public Beta](https://github.com/rudranshjain0123/Teste/releases/download/v1.0.0-beta/Teste.zip)
+[Download Teste 1.0.1 — Public Beta](https://github.com/rudranshjain0123/Teste/releases/download/v1.0.1-beta/Teste.zip)
+
+[Read the 1.0.1 release notes](https://github.com/rudranshjain0123/Teste/releases/tag/v1.0.1-beta)
 
 ## Getting Started
 
@@ -51,7 +53,13 @@ Teste captures real browser evidence and generates actionable improvement prompt
 
 ### Method 2: Manual installation
 
-Extract Teste.zip and follow the installation documentation included in the package.
+Extract Teste.zip and open the Teste folder. Install Python with virtual environment support. The install scripts download the Python dependencies and Playwright Chromium.
+
+**macOS / Linux:** `chmod +x install.sh start.sh stop.sh`, then `./install.sh` and `./start.sh`. Stop with `./stop.sh`.
+
+**Windows 10 / 11 (Beta):** In Command Prompt, run `install.bat` and `start.bat`. Stop with `stop.bat`.
+
+Open the local address printed by the start script. In Settings → AI Integrations, choose **Copy MCP Command** to get the command for your installation.
 
 ## How to Use Teste
 
@@ -204,12 +212,13 @@ BUILD → TEST → ANALYZE → FIX → RETEST
 
 | Platform or Integration | Status |
 |---|---|
-| macOS | Tested |
-| Windows | Beta |
-| Codex | Tested |
-| Claude Code | MCP-compatible |
+| macOS | Fresh installation, dynamic path resolution and Codex MCP connectivity verified |
+| Linux | Automated browser and application tests passed |
+| Windows | Beta; native verification pending |
+| Codex | MCP connectivity verified; full live usability audit not performed for 1.0.1 |
+| Claude Code | Documented MCP target; not independently verified |
 | OpenCode | MCP-compatible |
-| Independent API integration | Beta — under development |
+| Independent API integration | Under development |
 
 The current release primarily uses external AI agents.
 
@@ -245,7 +254,7 @@ Teste is currently in public beta.
 
 AI personas are simulated users, not actual human participants. Their observations can help discover usability problems but do not replace human user research or professional accessibility audits.
 
-Windows support and independent API integration remain in beta.
+Windows support remains in beta. Independent API integration is under development.
 
 Please report bugs and suggestions through GitHub Issues.
 
