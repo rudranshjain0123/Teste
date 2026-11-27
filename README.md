@@ -31,9 +31,9 @@ Teste captures real browser evidence and generates actionable improvement prompt
 
 ## Download
 
-[Download Teste 1.0.1 — Public Beta](https://github.com/rudranshjain0123/Teste/releases/download/v1.0.1-beta/Teste.zip)
+[Download Teste 1.0.2 — Public Beta](https://github.com/rudranshjain0123/Teste/releases/download/v1.0.2-beta/Teste.zip)
 
-[Read the 1.0.1 release notes](https://github.com/rudranshjain0123/Teste/releases/tag/v1.0.1-beta)
+[Read the 1.0.2 release notes](https://github.com/rudranshjain0123/Teste/releases/tag/v1.0.2-beta)
 
 ## Getting Started
 
@@ -212,10 +212,10 @@ BUILD → TEST → ANALYZE → FIX → RETEST
 
 | Platform or Integration | Status |
 |---|---|
-| macOS | Fresh installation, dynamic path resolution and Codex MCP connectivity verified |
-| Linux | Automated browser and application tests passed |
+| macOS | Fresh installation, dynamic path resolution and Codex MCP connectivity verified for 1.0.1 |
+| Linux | Automated browser and application tests passed for 1.0.1 |
 | Windows | Beta; native verification pending |
-| Codex | MCP connectivity verified; full live usability audit not performed for 1.0.1 |
+| Codex | MCP connectivity verified; full live usability audit not performed for 1.0.2 |
 | Claude Code | Documented MCP target; not independently verified |
 | OpenCode | MCP-compatible |
 | Independent API integration | Under development |
